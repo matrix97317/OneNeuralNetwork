@@ -12,8 +12,8 @@ https://docs.docker.com/get-started/
 If you have a docker image, you can skip this step. If you not, you can do the following commands one by one.
 
 ```
-$ git clone https://github.com/matrix97317/OneNerualNetwork.git
-$ cd OneNerualNetwork
+$ git clone https://github.com/matrix97317/OneNeuralNetwork.git
+$ cd OneNeuralNetwork
 $ cd dockers
 $ docker buildx build --platform=linux/amd64 -t ONN:v1.0.0 -f .
 $ docker images //you can look `ONN:v1.0.0`
@@ -23,15 +23,15 @@ $ docker images //you can look `ONN:v1.0.0`
 If you have clone repo,you can skip it.
 
 ```
-$ git clone https://github.com/matrix97317/OneNerualNetwork.git
-$ cd OneNerualNetwork
+$ git clone https://github.com/matrix97317/OneNeuralNetwork.git
+$ cd OneNeuralNetwork
 $ git checkout -b <your_name>/<feature_name>
 ```
 
 ### STEP 2. Build Development Environment
 
 ```
-$ cd OneNerualNetwork
+$ cd OneNeuralNetwork
 $ make dev
 $ make pre-commit
 ```
