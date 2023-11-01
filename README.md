@@ -1,4 +1,4 @@
-# One Nerual Network (ONN)
+# One Neural Network (ONN)
 This is a cross-chip platform collection of operators and a unified neural network library.
 We hope to use this lib to run [OpenMMLab/Detectron/DeepSpeed/Magatron-LM/...] on different chip platforms.
 To achieve this goal, we utilized Deep Learning Compiler or DSL (such as,TVM,Triton,... etc) as the backend.
