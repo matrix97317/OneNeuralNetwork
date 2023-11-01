@@ -1,0 +1,93 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[restructuredtext]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": [
+    "ASGD",
+    "biiou",
+    "Caffe",
+    "ceph",
+    "cicd",
+    "ckpt",
+    "clss",
+    "conv",
+    "convs",
+    "cuda",
+    "deconv",
+    "dets",
+    "discretization",
+    "dtype",
+    "dylib",
+    "gloo",
+    "inplace",
+    "intrinsics",
+    "isclass",
+    "Keras",
+    "kpts",
+    "LBFGS",
+    "libcuda",
+    "multinomial",
+    "nccl",
+    "NCHW",
+    "ndarray",
+    "nums",
+    "optim",
+    "Popen",
+    "preds",
+    "psutil",
+    "pydantic",
+    "pylintrc",
+    "pyproject",
+    "pythonic",
+    "randn",
+    "regs",
+    "relu",
+    "rois",
+    "stds",
+    "STMD",
+    "symm",
+    "tolist",
+    "topk",
+    "toplevel",
+    "xywh",
+    "xyxy"
+  ],
+  "editor.formatOnSave": true,
+  "editor.rulers": [
+    88
+  ],
+  "files.exclude": {
+    "**/*.egg-info": true,
+    "**/.coverage": true,
+    "**/.mypy_cache": true,
+    "**/.pytest_cache": true,
+    "**/.venv": true,
+    "**/Pipfile*": true,
+    "**/__pycache__": true,
+    "**/build": true,
+    "**/coverage.xml": true,
+    "**/htmlcov": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "python.formatting.provider": "black",
+  "python.linting.flake8Enabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.linting.pylintEnabled": true,
+  "remote.downloadExtensionsLocally": true
+}
