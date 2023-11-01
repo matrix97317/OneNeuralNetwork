@@ -1,0 +1,31 @@
+# Requirements for runtime only.
+-i https://mirror.sjtu.edu.cn/pypi/web/simple
+--extra-index-url https://pypi.ngc.nvidia.com
+addict
+click
+coloredlogs
+easydict
+importlib-metadata
+mpi4py
+numpy
+Pillow
+prettytable
+pydantic
+pynvml
+setuptools-scm
+tabulate
+tensorboard
+torch
+torch_tb_profiler
+torchvision
+tqdm
+tvm
+terminaltables
+pycuda
+pycocotools
+onnxsim
+onnx_graphsurgeon
+onnxruntime==1.8.1
+open3d
+jupyterlab==3.0.16
+opencv-python==4.8.0.74
