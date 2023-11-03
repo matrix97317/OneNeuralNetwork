@@ -32,7 +32,10 @@ extend-ignore =
     S403,
     I001,
     I005,
-    BLK100
+    BLK100,
+    ABS101,
+    F403,
+    F401,
 # Make `flake8-quotes` compatible with black.
 # Reference: https://github.com/zheller/flake8-quotes#configuration
 # Reference: https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html#strings

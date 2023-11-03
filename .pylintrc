@@ -47,6 +47,7 @@ disable=c-extension-no-member,
         not-callable,
         too-many-lines,
         use-dict-literal,
+        arguments-differ,
 
 [SIMILARITIES]
 
